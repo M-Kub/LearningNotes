@@ -1,7 +1,7 @@
 # Markdown Cheatsheet
 
 ## Headers
----
+
 ```
 # H1
 ## H2
@@ -12,7 +12,7 @@
 ```
 
 ## Formating
----
+
 ```
 ** bold text **
 * italicized text *
@@ -22,7 +22,7 @@
 ## Lists
 
 ### Ordered List
----
+
 ```
 1. First item
     1. First indented
@@ -34,7 +34,7 @@
 3. Third item
 ```
 ### Unordered List
----
+
 ```
 - First item
     - First indented
@@ -45,7 +45,7 @@
 ```
 
 ## More Stuff
----
+
 ```
 `code`
 Horizontal rule ---
@@ -54,7 +54,7 @@ Image ![alt text](/images/mark.png)
 ```
 
 ## Table
----
+
     Table Header1 | Table Header2
     --------------|--------------
     Content Cell 1| Content Cell 2
