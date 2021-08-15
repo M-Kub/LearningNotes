@@ -38,6 +38,6 @@
 - ^From (\S+@\S+) = Same as above, but line starts wth 'From' string
 - @([^ ]*) = find the '@' character, select the following more than one non-blank characters
 - ^From .*@([^ ]*) = Starting and the beginning of the line, looking for the string 'From', 
-- followed by a space, then followed by any number of characters, to an '@' character, 
-- Start extracting after the '@' character until you reach whitespace
+  followed by a space, then followed by any number of characters, to an '@' character, 
+  Start extracting after the '@' character until you reach whitespace.
 - \$[0-9.]+ = '$' character followed by one or more digits or .
