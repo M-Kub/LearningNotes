@@ -7,9 +7,8 @@
 ## Formatting code inside Django admin
 ```
 <pre><code>
-def example(code):
-	pass
-
+	def example(code):
+		pass
 </code></pre>
 ```
 ## Link to download files in Django admin
