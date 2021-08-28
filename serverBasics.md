@@ -4,7 +4,8 @@
 
 Found in */etc/nginx* 
 
-- /sites-available | Here you configure the nginx settings in a file usually named after your site e.g. "myBlog". *sites-available* is also the only folder you should make changes in, never edit files in sites-enabled. When you are done editing your file e.g. */etc/nginx/sites-available/myBlog* you save it, and then back in the terminal, create a symlink like this *sudo ln -s /etc/nginx/sites-available/myBlog /etc/nginx/sites-enabled*.
+- /sites-available | Here you configure the nginx settings in a file usually named after your site e.g. "myBlog". 
+*sites-available* is also the only folder you should make changes in, never edit files in sites-enabled. When you are done editing your file e.g. */etc/nginx/sites-available/myBlog* you save it, and then back in the terminal, create a symlink like this *sudo ln -s /etc/nginx/sites-available/myBlog /etc/nginx/sites-enabled*.
 
 - /sites-enabled | Thats the folder where your */sites-available/myBlog* file will show up after you symlinked it.
 
